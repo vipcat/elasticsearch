@@ -139,6 +139,7 @@ Setting ElasticSearch with MSSQL
 * Plugins require ( in package ) 
   1. **analysis-icu**
   2. **elasticsearch-analysis-vietnamese-7.4.2**
+  
   => Unrar to unique folder then copy to ES plugins folder
   
 Suppose you had ES index name **tieng_viet**
