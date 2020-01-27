@@ -143,13 +143,15 @@ Setting ElasticSearch with MSSQL
   
 Suppose you had ES index name **tieng_viet**
 
-Check: `GET /tieng_viet/_settings`.
-Result: `some json string :v`.
+**Check:** `GET /tieng_viet/_settings` 
 
-Delete: `DELETE tieng_viet`.
-Result: `another some json string :3`.
+**Result:** `some json string :v` 
 
-ReCreate:
+**Delete:** `DELETE tieng_viet`
+
+**Result:** `another some json string :3`
+
+**ReCreate:**
 `PUT tieng_viet
 {
   "settings": {
@@ -179,8 +181,9 @@ ReCreate:
       }
     }
   }
-}`.
-Result: `another some json string :3`.
+}`
+
+**Result:** `another some json string :3`
 
 
 #### Vietnamese Analyser
