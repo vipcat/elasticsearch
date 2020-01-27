@@ -6,6 +6,9 @@ Setting ElasticSearch with MSSQL
 
 <ol>
 <li><strong>Download and install those files</strong>
+  <p><a href="https://github.com/vipcat/elasticsearch/blob/master/jre-8u231-windows-x64.rar">Java8 Installer</a></p>
+  <p><a href="https://github.com/vipcat/elasticsearch/blob/master/ElasticSearch.rar">ES PACKAGE</a></p>
+ 
 </li>
 <li><strong>Setup Elasticsearch</strong>
   <p>Basically, ES is very easy to config. Just focus to config file (<strong><em>/config/elasticsearch.yml</em></strong>) and batch (<strong><em>/</em>bin/elasticsearch.bat</strong>)&nbsp;</p>
