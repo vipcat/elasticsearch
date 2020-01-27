@@ -104,10 +104,27 @@ Setting ElasticSearch with MSSQL
 <p><strong><em>logstash -f logstash-config.conf</em></strong></p>
 <p><strong>Here you go !</strong></p>
 <p>Navigate to <a href="http://localhost:9400/_search?q=xxxxx">http://localhost:9400/_search?q=xxxxx</a>&nbsp;and enjoy it ( ;v only if it works )</p>
-<p>Some more configuration will be explain in the next few days</p>
+<p>Some more configuration will be explained in the next few days</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 </li>
 
-<li><strong>Setup Kibana</strong></li>
+<li><strong>Setup Kibana</strong>
+<p><strong>Kibana&nbsp;</strong>is the way to see data :D&nbsp;</p>
+<p>Go to kibana bin folder then run this command&nbsp;</p>
+<p><strong>kibana -e <a href="http://localhost:9400">http://localhost:9400</a>&nbsp;-p 5061</strong></p>
+<table>
+<tbody>
+<tr>
+<td>-e</td>
+<td>host address</td>
+</tr>
+<tr>
+<td>-p</td>
+<td>custom port</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</li>
 </ol>
