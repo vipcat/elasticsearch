@@ -70,7 +70,6 @@ Setting ElasticSearch with MSSQL
 </li>
 <li><strong>Setup Logstash</strong>
   <p><strong>Logstash&nbsp;</strong>is the way to push data from Database to your ES Instance.</p>
-<p>&nbsp;</p>
 <p><strong>Basic config&nbsp;</strong></p>
 <p><a href=" https://github.com/vipcat/elasticsearch/blob/master/logstash-config.conf"> https://github.com/vipcat/elasticsearch/blob/master/logstash-config.conf</a></p>
 <table>
