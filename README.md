@@ -68,9 +68,10 @@ Setting ElasticSearch with MSSQL
 </table>
 <p>&nbsp;</p>
 </li>
-<li><strong>Setup Logstash</strong></li>
-<p><strong>Logstash&nbsp;</strong>is the way to push data from Database to your ES Instance.</p>
-<p>Basic config&nbsp;</p>
+<li><strong>Setup Logstash</strong>
+  <p><strong>Logstash&nbsp;</strong>is the way to push data from Database to your ES Instance.</p>
+<p>&nbsp;</p>
+<p><strong>Basic config&nbsp;</strong></p>
 <p><a href=" https://github.com/vipcat/elasticsearch/blob/master/logstash-config.conf"> https://github.com/vipcat/elasticsearch/blob/master/logstash-config.conf</a></p>
 <table>
 <tbody>
@@ -107,5 +108,7 @@ Setting ElasticSearch with MSSQL
 <p>Some more configuration will be explain in the next few days</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+</li>
+
 <li><strong>Setup Kibana</strong></li>
 </ol>
