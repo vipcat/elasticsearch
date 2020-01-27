@@ -3,11 +3,12 @@ Setting ElasticSearch with MSSQL
 
 (for some reasons github is not allow large file to be uploaded - read lfs here to do it https://git-lfs.github.com/ )
 ![image](https://user-images.githubusercontent.com/36264533/73153163-49fa3e00-4105-11ea-9e3b-15d58962e51b.png)
-
+>
 1. [Config Unicode folding ( bỏ dấu tiếng Việt )](#unicode-folding)
 2. [Config Vietnamese Analyser ( tách cụm từ tiếng Việt)](#vietnamese-analyser)
 3. [Reindex ES Instance](#reindex)
 4. [Node Client](#node-client)
+
 
 <ol>
 <li><strong>Download and install those files</strong>
@@ -134,7 +135,52 @@ Setting ElasticSearch with MSSQL
 </ol>
 
 #### Unicode folding
-`update`
+
+* Plugins require ( in package ) 
+  1. **analysis-icu**
+  2. **elasticsearch-analysis-vietnamese-7.4.2**
+  => Unrar to unique folder then copy to ES plugins folder
+  
+Suppose you had ES index name **tieng_viet**
+
+Check: `GET /tieng_viet/_settings`
+Result: `some json string :v`
+
+Delete: `DELETE tieng_viet`
+Result: `another some json string :3`
+
+ReCreate:
+`PUT tieng_viet
+{
+  "settings": {
+  "index": {
+    "analysis": {
+    "analyzer": {
+    "default": {
+    "tokenizer": "icu_tokenizer",
+    "char_filter": [ "html_strip" ],
+    "filter": [
+      "vni_folding",
+      "lowercase"
+    ]
+  },
+  "my_analyzer": {
+    "tokenizer" : "vi_tokenizer",
+    "filter" : ["lowercase"],
+    "char_filter" : ["html_strip"]
+    }
+  },
+  "filter": {
+    "vni_folding": {
+    "type": "icu_folding",
+    "unicode_set_filter": "[^åäöÅÄÖ]"
+          }
+        }
+      }
+    }
+  }
+}`
+
 
 #### Vietnamese Analyser
 `update`
