@@ -9,8 +9,9 @@ Setting ElasticSearch with MSSQL
 <p>Basically, ES is very easy to config. Just focus to config file (<strong><em>/config/elasticsearch.yml</em></strong>) and batch (<strong><em>/</em>bin/elasticsearch.bat</strong>)&nbsp;</p>
 <p>Moditify <strong>elasticsearch.bat&nbsp;</strong>with those config</p>
 <p><a href="https://github.com/vipcat/elasticsearch/blob/master/elasticsearch.bat">https://github.com/vipcat/elasticsearch/blob/master/elasticsearch.bat</a></p>
-<p>With this config es will know your config file located in <em>/config/elasticsearch.yml&nbsp;</em>( nvm it if you need it run in default java configuration.</p>
+<p>With this config es will know your config file located in <em>/config/elasticsearch.yml&nbsp;</em>( nvm it if you need it run in default java configuration. )</p>
 <p>Well, now&nbsp; just go to the bin folder and run this batch file.</p>
+<p><span style="text-decoration: underline;"><strong>Config detail</strong></span></p>
 <table>
 <tbody>
 <tr>
