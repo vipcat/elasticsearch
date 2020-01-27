@@ -69,6 +69,43 @@ Setting ElasticSearch with MSSQL
 <p>&nbsp;</p>
 </li>
 <li><strong>Setup Logstash</strong></li>
-
+<p><strong>Logstash&nbsp;</strong>is the way to push data from Database to your ES Instance.</p>
+<p>Basic config&nbsp;</p>
+<p><a href=" https://github.com/vipcat/elasticsearch/blob/master/logstash-config.conf"> https://github.com/vipcat/elasticsearch/blob/master/logstash-config.conf</a></p>
+<table>
+<tbody>
+<tr>
+<td>jdbc_connection_string =&gt; "jdbc:sqlserver://xxx;database=xxx;integratedSecurity=false;"</td>
+<td>Conntection string to your database</td>
+</tr>
+<tr>
+<td>jdbc_driver_class =&gt; "com.microsoft.sqlserver.jdbc.SQLServerDriver"</td>
+<td>just keep it</td>
+</tr>
+<tr>
+<td>jdbc_driver_library =&gt; "C:\sqljdbc42.jar"</td>
+<td>sqljdbc located ( include in package )</td>
+</tr>
+<tr>
+<td>statement =&gt; "SELECT * email from Users"</td>
+<td>yep, sql query</td>
+</tr>
+<tr>
+<td>hosts =&gt; ["localhost:9400"]</td>
+<td>ES instance url</td>
+</tr>
+<tr>
+<td>index =&gt; "xx"</td>
+<td>ES instance index name</td>
+</tr>
+</tbody>
+</table>
+<p>Go to logstash bin folder then run this command</p>
+<p>`<strong><em>logstash -f logstash-config.conf</em></strong>`</p>
+<p><strong>Here you go !</strong></p>
+<p>Navigate to <a href="http://localhost:9400/_search?q=xxxxx">http://localhost:9400/_search?q=xxxxx</a>&nbsp;and enjoy it ( ;v only if it works )</p>
+<p>Some more configuration will be explain in the next few days</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <li><strong>Setup Kibana</strong></li>
 </ol>
