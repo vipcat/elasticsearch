@@ -13,7 +13,7 @@ Setting ElasticSearch with MSSQL
 <ol>
 <li><strong>Download and install those files</strong>
   <p><a href="https://github.com/vipcat/elasticsearch/blob/master/jre-8u231-windows-x64.rar">Java8 Installer</a></p>
-  <p><a href="https://github.com/vipcat/elasticsearch/blob/master/ElasticSearch.rar">ES PACKAGE</a></p>
+  <p><a href="https://github.com/vipcat/elasticsearch/blob/master/Package.rar">ES PACKAGE</a></p>
   Keep ur mind in some Environment configs 
   <p><img src="https://user-images.githubusercontent.com/36264533/73154815-36ea6c80-410b-11ea-8f67-136dae29d90b.png" alt="" width="600" height="400" /></p>
 </li>
@@ -93,7 +93,7 @@ Setting ElasticSearch with MSSQL
 <td>sqljdbc located ( include in package )</td>
 </tr>
 <tr>
-<td>statement =&gt; "SELECT * email from Users"</td>
+<td>statement =&gt; "SELECT email from Users"</td>
 <td>yep, sql query</td>
 </tr>
 <tr>
