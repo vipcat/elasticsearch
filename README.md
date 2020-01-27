@@ -147,9 +147,11 @@ Suppose you had ES index name **tieng_viet**
 
 **Result:** `some json string :v` 
 
+
 **Delete:** `DELETE tieng_viet`
 
 **Result:** `another some json string :3`
+
 
 **ReCreate:**
 `PUT tieng_viet
@@ -185,9 +187,21 @@ Suppose you had ES index name **tieng_viet**
 
 **Result:** `another some json string :3`
 
+Now reindex by execute logstash command (Read logstash above)
+ahh let checkout by
 
-#### Vietnamese Analyser
-`update`
+**Check:** `GET tieng_viet/_analyze { text: "biển người" }`
+
+**Result:** `another some json string :3`
+
+if result is not contain unicode characters then it done
+
+#### Vietnamese Analyser 
+(same config above)
+
+**Check:** `GET tieng_viet/_analyze {analyzer: "my_analyzer", text: "biển người" }`
+
+**Result:** `another some json string :3`
 
 #### Reindex
 `update`
