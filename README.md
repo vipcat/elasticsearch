@@ -105,6 +105,7 @@ Setting ElasticSearch with MSSQL
 <p><strong>Here you go !</strong></p>
 <p>Navigate to <a href="http://localhost:9400/_search?q=xxxxx">http://localhost:9400/_search?q=xxxxx</a>&nbsp;and enjoy it ( ;v only if it works )</p>
 <p>Some more configuration will be explained in the next few days</p>
+  <p>&nbsp;</p>
 </li>
 
 <li><strong>Setup Kibana</strong>
