@@ -5,8 +5,8 @@ Setting ElasticSearch with MSSQL
 ![image](https://user-images.githubusercontent.com/36264533/73153163-49fa3e00-4105-11ea-9e3b-15d58962e51b.png)
 
 1. [Config Unicode folding ( bỏ dấu tiếng Việt )](#unicode-folding)
-2. [Config Vietnamese Analyser ( tách cụm từ tiếng Việt)](#unicode-folding)
-3. [Reindex ES Instance](#unicode-folding)
+2. [Config Vietnamese Analyser ( tách cụm từ tiếng Việt)](#vietnamese-analyser)
+3. [Reindex ES Instance](#reindex)
 
 
 <ol>
@@ -134,4 +134,10 @@ Setting ElasticSearch with MSSQL
 </ol>
 
 #### Unicode folding
-Here would be some installation instructions
+`update`
+
+#### Vietnamese Analyser
+`update`
+
+#### Reindex
+`update`
