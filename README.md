@@ -6,7 +6,9 @@ Setting ElasticSearch with MSSQL
 
 <ol>
 <li><strong>Download and install those files</strong>
-<p>Basically, ES is very easy to config. Just focus to config file (<strong><em>/config/elasticsearch.yml</em></strong>) and batch (<strong><em>/</em>bin/elasticsearch.bat</strong>)&nbsp;</p>
+</li>
+<li><strong>Setup Elasticsearch</strong>
+  <p>Basically, ES is very easy to config. Just focus to config file (<strong><em>/config/elasticsearch.yml</em></strong>) and batch (<strong><em>/</em>bin/elasticsearch.bat</strong>)&nbsp;</p>
 <p>Moditify <strong>elasticsearch.bat&nbsp;</strong>with those config</p>
 <p><a href="https://github.com/vipcat/elasticsearch/blob/master/elasticsearch.bat">https://github.com/vipcat/elasticsearch/blob/master/elasticsearch.bat</a></p>
 <p>With this config es will know your config file located in <em>/config/elasticsearch.yml&nbsp;</em>( nvm it if you need it run in default java configuration. )</p>
@@ -62,7 +64,6 @@ Setting ElasticSearch with MSSQL
 </table>
 <p>&nbsp;</p>
 </li>
-<li><strong>Setup Elasticsearch</strong></li>
 <li><strong>Setup Logstash</strong></li>
 <li><strong>Setup Kibana</strong></li>
 </ol>
