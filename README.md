@@ -7,7 +7,7 @@ Setting ElasticSearch with MSSQL
 1. [Config Unicode folding ( bỏ dấu tiếng Việt )](#unicode-folding)
 2. [Config Vietnamese Analyser ( tách cụm từ tiếng Việt)](#vietnamese-analyser)
 3. [Reindex ES Instance](#reindex)
-
+4. [Node Client](#node-client)
 
 <ol>
 <li><strong>Download and install those files</strong>
@@ -140,4 +140,7 @@ Setting ElasticSearch with MSSQL
 `update`
 
 #### Reindex
+`update`
+
+#### Node Client
 `update`
