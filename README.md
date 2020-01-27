@@ -6,10 +6,59 @@ Setting ElasticSearch with MSSQL
 
 <ol>
 <li><strong>Download and install those files</strong>
-    <p>Basically, ES is very easy to config. Just focus to config file (<em>/config/elasticsearch.yml</em>) and batch (<em>/bin/elasticsearch.bat</em>)&nbsp;</p>
+<p>Basically, ES is very easy to config. Just focus to config file (<strong><em>/config/elasticsearch.yml</em></strong>) and batch (<strong><em>/</em>bin/elasticsearch.bat</strong>)&nbsp;</p>
 <p>Moditify <strong>elasticsearch.bat&nbsp;</strong>with those config</p>
 <p><a href="https://github.com/vipcat/elasticsearch/blob/master/elasticsearch.bat">https://github.com/vipcat/elasticsearch/blob/master/elasticsearch.bat</a></p>
-<p>&nbsp;</p>
+<p>With this config es will know your config file located in <em>/config/elasticsearch.yml&nbsp;</em>( nvm it if you need it run in default java configuration.</p>
+<p>Well, now&nbsp; just go to the bin folder and run this batch file.</p>
+<table>
+<tbody>
+<tr>
+<td>
+<div>
+<div>http.port:&nbsp;9400</div>
+</div>
+</td>
+<td>&nbsp;Port&nbsp;</td>
+</tr>
+<tr>
+<td>
+<div>
+<div>transport.tcp.port:&nbsp;9500</div>
+</div>
+</td>
+<td>&nbsp;Transport port</td>
+</tr>
+<tr>
+<td>
+<div>
+<div>
+<div>
+<div>discovery.seed_hosts&nbsp;:&nbsp;0.0.0.0</div>
+</div>
+</div>
+</div>
+</td>
+<td>&nbsp;Config wan IP</td>
+</tr>
+<tr>
+<td>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>network.host:&nbsp;0.0.0.0</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>&nbsp;Config wan IP</td>
+</tr>
+</tbody>
+</table>
 <p>&nbsp;</p>
 </li>
 <li><strong>Setup Elasticsearch</strong></li>
