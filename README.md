@@ -93,7 +93,7 @@ Setting ElasticSearch with MSSQL
 <td>sqljdbc located ( include in package )</td>
 </tr>
 <tr>
-<td>statement =&gt; "SELECT * email from Users"</td>
+<td>statement =&gt; "SELECT email from Users"</td>
 <td>yep, sql query</td>
 </tr>
 <tr>
