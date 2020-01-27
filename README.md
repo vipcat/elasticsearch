@@ -9,8 +9,7 @@ Setting ElasticSearch with MSSQL
   <p><a href="https://github.com/vipcat/elasticsearch/blob/master/jre-8u231-windows-x64.rar">Java8 Installer</a></p>
   <p><a href="https://github.com/vipcat/elasticsearch/blob/master/ElasticSearch.rar">ES PACKAGE</a></p>
   Keep ur mind with some Environment config 
-  ![image](https://user-images.githubusercontent.com/36264533/73154815-36ea6c80-410b-11ea-8f67-136dae29d90b.png)
-  ![image](https://user-images.githubusercontent.com/36264533/73153163-49fa3e00-4105-11ea-9e3b-15d58962e51b.png)
+  <p><img src="https://user-images.githubusercontent.com/36264533/73154815-36ea6c80-410b-11ea-8f67-136dae29d90b.png" alt="" width="1234" height="618" /></p>
 </li>
 <li><strong>Setup Elasticsearch</strong>
   <p>Basically, ES is very easy to config. Just focus to config file (<strong><em>/config/elasticsearch.yml</em></strong>) and batch (<strong><em>/</em>bin/elasticsearch.bat</strong>)&nbsp;</p>
