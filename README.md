@@ -1,14 +1,14 @@
 # elasticsearch
 Setting ElasticSearch with MSSQL
 
-(for some reason github is not allow large file to be upload - read lfs here to do it https://git-lfs.github.com/ )
+(for some reasons github is not allow large file to be uploaded - read lfs here to do it https://git-lfs.github.com/ )
 ![image](https://user-images.githubusercontent.com/36264533/73153163-49fa3e00-4105-11ea-9e3b-15d58962e51b.png)
 
 <ol>
 <li><strong>Download and install those files</strong>
   <p><a href="https://github.com/vipcat/elasticsearch/blob/master/jre-8u231-windows-x64.rar">Java8 Installer</a></p>
   <p><a href="https://github.com/vipcat/elasticsearch/blob/master/ElasticSearch.rar">ES PACKAGE</a></p>
-  Keep ur mind with some Environment config 
+  Keep ur mind in some Environment configs 
   <p><img src="https://user-images.githubusercontent.com/36264533/73154815-36ea6c80-410b-11ea-8f67-136dae29d90b.png" alt="" width="600" height="400" /></p>
 </li>
 <li><strong>Setup Elasticsearch</strong>
@@ -17,7 +17,7 @@ Setting ElasticSearch with MSSQL
 <p><a href="https://github.com/vipcat/elasticsearch/blob/master/elasticsearch.bat">https://github.com/vipcat/elasticsearch/blob/master/elasticsearch.bat</a></p>
 <p>With this config es will know your config file located in <em>/config/elasticsearch.yml&nbsp;</em>( nvm it if you need it run in default java configuration. )</p>
 <p>Well, now&nbsp; just go to the bin folder and run this batch file.</p>
-<p><span style="text-decoration: underline;"><strong>Config detail</strong></span></p>
+<p><span style="text-decoration: underline;"><strong>Config details</strong></span></p>
 <table>
 <tbody>
 <tr>
@@ -69,5 +69,6 @@ Setting ElasticSearch with MSSQL
 <p>&nbsp;</p>
 </li>
 <li><strong>Setup Logstash</strong></li>
+
 <li><strong>Setup Kibana</strong></li>
 </ol>
