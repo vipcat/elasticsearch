@@ -4,7 +4,7 @@ Setting ElasticSearch with MSSQL
 (for some reasons github is not allow large file to be uploaded - read lfs here to do it https://git-lfs.github.com/ )
 ![image](https://user-images.githubusercontent.com/36264533/73153163-49fa3e00-4105-11ea-9e3b-15d58962e51b.png)
 
-[create an anchor](#https://github.com/vipcat/elasticsearch/blob/master/jre-8u231-windows-x64.rar)
+[Read our installation guide](#installation-guide)
 
 <ol>
 <li><strong>Download and install those files</strong>
@@ -129,3 +129,6 @@ Setting ElasticSearch with MSSQL
 <p>&nbsp;</p>
 </li>
 </ol>
+
+#### Installation guide
+Here would be some installation instructions
