@@ -29,6 +29,14 @@ Setting ElasticSearch with MSSQL
 <tr>
 <td>
 <div>
+<div>transport.host: localhost </div>
+</div>
+</td>
+<td>&nbsp;Port&nbsp;</td>
+</tr>
+<tr>
+<td>
+<div>
 <div>http.port:&nbsp;9400</div>
 </div>
 </td>
